@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-10T03:31:46.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4170478100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Task Steps",
+        "description": "",
+        "id": "trendyol-task-calışması;task-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5706001200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "www.gittigidiyor.com sitesi açılır.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.www_gittigidiyor_com_sitesi_açılır()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7297224800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana sayfanın açıldığı kontrol edilir. Siteye login olunur",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.ana_sayfanın_açıldığı_kontrol_edilir_Siteye_login_olunur()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login işlemi kontrol edilir.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.login_işlemi_kontrol_edilir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2005800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Arama kutucuğuna \u0027bilgisayar\u0027 kelimesi girilir.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027bilgisayar\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.arama_kutucuğuna_kelimesi_girilir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Arama sonuçları sayfasından 2.sayfa açılır.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.arama_sonuçları_sayfasından_sayfa_açılır(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "2.sayfanın açıldığı kontrol edilir.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.sayfanın_açıldığı_kontrol_edilir(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.sonuca_göre_sergilenen_ürünlerden_rastgele_bir_ürün_seçilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1998000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Seçilen ürünün ürün bilgisi ve tutar bilgisi txt dosyasına yazılır.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.seçilen_ürünün_ürün_bilgisi_ve_tutar_bilgisi_txt_dosyasına_yazılır()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Seçilen ürün sepete eklenir.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.seçilen_ürün_sepete_eklenir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.ürün_sayfasındaki_fiyat_ile_sepette_yer_alan_ürün_fiyatının_doğruluğu_karşılaştırılır()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 32
+                }
+              ],
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.adet_arttırılarak_ürün_adedinin_olduğu_doğrulanır(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.",
+            "match": {
+              "location": "com.gittigidiyor.step_definitions.TaskDefs.ürün_sepetten_silinerek_sepetin_boş_olduğu_kontrol_edilir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Trendyol Task Calışması",
+    "description": "",
+    "id": "trendyol-task-calışması",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/task.feature",
+    "tags": []
+  }
+]
